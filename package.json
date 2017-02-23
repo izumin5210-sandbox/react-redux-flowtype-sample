@@ -1,0 +1,34 @@
+{
+  "name": "react-redux-flowtype-sample",
+  "description": "Sample scripts typed react-redux with flow",
+  "version": "0.1.0",
+  "author": "Masayuki Izumi <masayuki@izumin.info> (https://github.com/izumin5210)",
+  "bugs": {
+    "url": "https://github.com/izumin5210-sandbox/react-redux-flowtype-sample/issues"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "flow-bin": "^0.39.0",
+    "flow-typed": "^2.0.0"
+  },
+  "homepage": "https://github.com/izumin5210-sandbox/react-redux-flowtype-sample#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izumin5210-sandbox/react-redux-flowtype-sample.git"
+  },
+  "scripts": {
+    "build": "babel --out-dir=./build src",
+    "postinstall": "flow-typed install",
+    "test": "flow"
+  }
+}
